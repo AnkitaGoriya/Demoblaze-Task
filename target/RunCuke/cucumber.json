@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 785002200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9562329100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should be able able to signup successfully",
+        "description": "",
+        "id": "sign-up-functionality;user-should-be-able-able-to-signup-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1127680200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 520062700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on sign up tab",
+            "match": {
+              "location": "SignUpSteps.iClickOnSignUpTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1023594000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"random username\" into username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random username",
+                  "offset": 9
+                }
+              ],
+              "location": "SignUpSteps.iEnterIntoUsernameField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154798400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"Password123\" into password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 9
+                }
+              ],
+              "location": "SignUpSteps.iEnterIntoPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056826500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on signup button",
+            "match": {
+              "location": "SignUpSteps.iClickOnSignupButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2034570200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to signup successfully",
+            "match": {
+              "location": "SignUpSteps.iShouldBeAbleToSignupSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Sign up functionality",
+    "description": "As a user I should be able to register successfully",
+    "id": "sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "signuppage.feature"
+  }
+]
